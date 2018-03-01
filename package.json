@@ -1,6 +1,6 @@
 {
   "name": "vocaloid-names",
-  "version": "2.1.0",
+  "version": "0.0.0-semantically-released",
   "description": "Get random vocaloid names",
   "main": "dist/index.js",
   "scripts": {
@@ -12,6 +12,7 @@
     "test": "cross-env NODE_ENV=test nyc mocha",
     "watch:test": "mocha --watch",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "lint": "eslint src",
     "validate": "npm-run-all --parallel test lint build"
   },
@@ -52,7 +53,8 @@
     "npm-run-all": "2.3.0",
     "nyc": "7.1.0",
     "rimraf": "2.5.4",
-    "webpack": "1.13.1"
+    "webpack": "1.13.1",
+    "semantic-release": "12.4.1"
   },
   "nyc": {
     "all": true,
