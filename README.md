@@ -1,4 +1,4 @@
-# vocaloid-names
+# vocaloid-names [![Build Status](https://travis-ci.org/ken30/vocaloid-names.svg?branch=master)](https://travis-ci.org/ken30/vocaloid-names)
 For all your random Vocaloid character needs.
 
 This is a list of vocaloid characters' name.
