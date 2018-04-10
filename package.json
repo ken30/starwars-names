@@ -45,7 +45,9 @@
     "babel-register": "6.11.6",
     "chai": "3.5.0",
     "codecov": "^3.0.0",
+    "commitizen": "^2.9.6",
     "cross-env": "2.0.0",
+    "cz-conventional-changelog": "^2.1.0",
     "eslint": "3.2.0",
     "eslint-config-kentcdodds": "^9.0.0",
     "json-loader": "0.5.4",
@@ -95,6 +97,9 @@
       },
       "pre-commit": "npm run validate",
       "commit-msg": "validate-commit-msg"
+    },
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
