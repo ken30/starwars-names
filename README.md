@@ -3,7 +3,7 @@ For all your random Vocaloid character needs.
 
 This is a list of vocaloid characters' name.
 
-# Usage
+## Usage
 
 `vocaloidNames.random()`
 for a random Vocaloid name.
